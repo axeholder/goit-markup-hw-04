@@ -37,6 +37,12 @@ h2 {
   margin-bottom: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   /* outline: 2px solid gold; */
   width: 1200px;
@@ -121,18 +127,24 @@ h2 {
 }
 
 /* контакты хедер */
+
 .container-contacts {
   display: flex;
   margin-left: auto;
   margin-right: 0;
+  align-items: center;
 }
 
-.heder-icon {
+.container-contacts .item {
+  display: flex;
+  align-items: center;
   fill: currentColor;
-  vertical-align: middle;
-  margin-right: 10px;
 }
 
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
 .contact-me {
   color: var(--main-text-color);
 
