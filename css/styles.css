@@ -244,6 +244,24 @@ img {
   height: 120px;
   margin-bottom: 30px;
   border-radius: 4px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+}
+.features-list .antena::before {
+  background-image: url('../images/icons/antena.svg');
+}
+
+.features-list .clock::before {
+  background-image: url('../images/icons/clock.svg');
+}
+
+.features-list .diagram::before {
+  background-image: url('../images/icons/diagram.svg');
+}
+
+.features-list .astronaut::before {
+  background-image: url('../images/icons/astronaut.svg');
 }
 
 .features-list > .item:not(:last-child) {
