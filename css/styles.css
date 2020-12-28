@@ -57,6 +57,7 @@ img {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 /* основной цвет текста 757575, 100 % */
 /* вторичный цвет текста 212121, 100 % */
@@ -289,11 +290,11 @@ img {
   padding-bottom: 94px;
 }
 
-.container > .what-we-do {
+/* .container > .what-we-do {
   width: 376px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .description-list {
   display: flex;
@@ -315,11 +316,11 @@ img {
   padding-bottom: 94px;
 }
 
-.container .team {
+/* .container .team {
   width: 264px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .ot-list {
   display: flex;
@@ -390,6 +391,28 @@ img {
 .icon-link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
+}
+
+/* постоянные клиенты */
+
+.container-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.list-clients {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.item-client {
+  display: flex;
+}
+
+.link-client {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 /* подвал */
